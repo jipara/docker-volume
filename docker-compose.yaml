@@ -1,0 +1,8 @@
+version : '3.3'
+
+services: 
+  jipara:
+    image: jipara/my-volume:v9
+    ports:
+      - "9090:80"
+
